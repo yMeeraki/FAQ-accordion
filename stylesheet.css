@@ -1,0 +1,59 @@
+body{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 150svh;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+
+    background-color:hsl(275, 100%, 97%);
+}
+
+/*Styling of Card*/
+.card{
+    max-width: 40rem;
+
+    padding: 20px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+/*Styling od heading*/
+.heading{
+    display:flex;
+    flex-direction: row;
+    background-color: aqua;
+
+    align-items: center;
+}
+
+/*Styling of question*/
+.question{
+    display: flex;
+    
+    justify-content: space-between;
+
+    font-weight: 600;
+}
+
+.question i{
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+
+/*Styling of answer*/
+.answer{
+    border: 1px solid black;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
