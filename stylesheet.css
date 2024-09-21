@@ -16,6 +16,8 @@ body{
 .card{
     max-width: 40rem;
 
+    width: 40rem;
+
     padding: 20px;
 
     background-color: white;
@@ -51,6 +53,7 @@ body{
 /*Styling of answer*/
 .answer{
     border: 1px solid black;
+    display: none;
 }
 
 div{
